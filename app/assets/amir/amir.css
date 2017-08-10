@@ -15,3 +15,77 @@ code {
 }
 
 
+/* Containers */
+
+.container.space {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.bg-1 {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+
+/* Editor */
+
+#editor {
+    font-family: "Ubuntu Mono", monospace;
+    font-size: 18px;
+    color: #fff;
+    background: #223;
+    box-shadow: 0 0 0 0 #223;
+    border-top: 4px solid #44082e;
+    transition: all 0.3s;
+    z-index: 1;
+    position: relative;
+    line-height: 30px;
+    padding: 30px 10px;
+}
+
+#editor.full {
+    box-shadow: 0 0 0 2000px #223;
+}
+
+#editor .code span:nth-of-type(1) {
+    color: #8ff234;
+    font-weight: bold;
+}
+
+#editor .code span:nth-of-type(2),
+#editor .code li {
+    color: #5e97ce;
+}
+
+#editor .code ul {
+    padding: 0;
+    margin: 0;
+}
+
+#editor .code li {
+    display: inline-block;
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+#editor .code b {
+    width: 8px;
+    height: 16px;
+    background: #fff;
+    display: inline-block;
+    position: relative;
+    top: 3px;
+}
+
+@media(min-width:768px) {
+    #editor {
+        font-size: 28px;
+        line-height: 50px;
+        padding: 80px;
+    }
+    #editor .code b {
+        width: 12px;
+        height: 22px;
+    }
+}
+
