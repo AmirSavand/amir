@@ -112,3 +112,52 @@ code {
     margin-top: 10px;
 }
 
+
+/* Progress list */
+
+.progress-list .title {
+    text-align: center;
+    font-size: 21px;
+    text-transform: uppercase;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #333;
+    margin-bottom: 10px;
+}
+
+.progress-list .subtitle {
+    text-align: left;
+    font-size: 16px;
+    border: 0;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.progress-list .item {
+    padding: 6px 0;
+    font-size: 18px;
+    color: #aaa;
+}
+
+.progress-list small {
+    float: right;
+    color: #666;
+}
+
+.progress-list .bar {
+    background: #292929;
+    margin-top: 6px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.progress-list .fill {
+    height: 3px;
+}
+
+.progress-list .green .fill {
+    background: #0F6;
+}
+
+.progress-list .yellow .fill {
+    background: #FD0;
+}
