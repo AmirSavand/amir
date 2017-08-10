@@ -89,3 +89,26 @@ code {
     }
 }
 
+
+/* Introduction */
+
+#introduction {
+    color: #ddd;
+}
+
+#introduction .title {
+    font-size: 5em;
+    letter-spacing: 5px;
+}
+
+#introduction .subtitle {
+    font-size: 2em;
+    opacity: 0.6;
+}
+
+#introduction .secret {
+    font-size: 1.2em;
+    opacity: 0.4;
+    margin-top: 10px;
+}
+
