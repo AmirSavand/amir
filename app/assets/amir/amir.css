@@ -1,0 +1,17 @@
+/* Import */
+
+@import url("//fonts.googleapis.com/css?family=Ubuntu+Condensed|Ubuntu+Mono");
+
+/* Global */
+
+body {
+    font-family: "Ubuntu Condensed", sans-serif;
+    background: #212121;
+    color: #666;
+}
+
+code {
+    font-family: "Ubuntu Mono", monospace;
+}
+
+
