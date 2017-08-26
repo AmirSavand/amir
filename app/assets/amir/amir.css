@@ -229,3 +229,47 @@ code {
 .connect-item:hover .caption {
     color: tomato;
 }
+
+
+/* Projects */
+
+.project {
+    border: 4px solid #333;
+    border-radius: 128px;
+    margin: 10px 0;
+}
+
+.project .media-left {
+    padding-right: 0;
+}
+
+.project img {
+    border-radius: 100% 0 0 100%;
+    padding: 6px;
+    opacity: 0.2;
+    transition: all 0.2s ease-in-out;
+}
+
+.project:hover img {
+    opacity: 1;
+}
+
+.project .media-body {
+    border-left: 4px solid #333;
+    padding: 15px;
+}
+
+.project .media-heading {
+    color: #aaa;
+    margin-bottom: 15px;
+}
+
+.project:hover .media-heading {
+    color: #fff;
+}
+
+.project .media-body p {
+    max-height: 62px;
+    overflow: hidden;
+    margin: 0;
+}
