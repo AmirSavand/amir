@@ -305,5 +305,13 @@ code {
 .project .media-body p {
     max-height: 60px;
     overflow: hidden;
+/* Footer */
+
+#footer {
+    padding: 30px 0;
+    background: rgba(0, 0, 0, 0.15);
+}
+
+#footer p {
     margin: 0;
 }
