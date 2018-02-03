@@ -4,6 +4,19 @@
 
 /* Global */
 
+::-webkit-scrollbar-track,
+::-webkit-scrollbar {
+    background: #212121;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #111;
+}
+
 body {
     font-family: "Ubuntu Condensed", sans-serif;
     background: #212121;
