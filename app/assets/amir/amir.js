@@ -15,3 +15,10 @@ $(document).on("ready scroll", function (event) {
     $("#editor").addClass("full");
   }
 });
+
+/**
+ * Update current year in footer
+ */
+$(document).on("ready", function() {
+  $("cd").text(new Date().getFullYear());
+});
