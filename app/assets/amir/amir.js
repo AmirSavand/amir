@@ -1,14 +1,14 @@
 /**
- * @desc Toggle for editor
+ * Toggle for editor
  */
-setInterval(function () {
+setInterval(function() {
   $("#editor b").toggle();
 }, 500);
 
 /**
- * @desc Resize the editor to full screen or minimal based on scroll
+ * Resize the editor to full screen or minimal based on scroll
  */
-$(document).on("ready scroll", function (event) {
+$(document).on("ready scroll", function() {
   if ($(window).scrollTop() > 10) {
     $("#editor").removeClass("full");
   } else {
