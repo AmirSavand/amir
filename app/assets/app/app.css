@@ -75,7 +75,7 @@ code {
     box-shadow: 0 0 0 0 #223;
     border-top: 4px solid #44082e;
     transition: all 0.3s;
-    z-index: 1;
+    z-index: 2;
     position: relative;
     line-height: 30px;
     padding: 30px 10px;
@@ -113,6 +113,26 @@ code {
     display: inline-block;
     position: relative;
     top: 3px;
+}
+
+#editor .arrow {
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: -200px;
+    transition: all 0.3s;
+    opacity: 0.2;
+    cursor: pointer;
+    font-size: 4em;
+    color: #000;
+}
+
+#editor .arrow:hover {
+    opacity: 0.7;
+}
+
+#editor.full .arrow {
+    bottom: 100px;
 }
 
 @media(min-width:768px) {
@@ -189,15 +209,15 @@ code {
     overflow: hidden;
 }
 
-.progress-list .fill {
+.progress-list .bar div {
     height: 3px;
 }
 
-.progress-list .green .fill {
+.progress-list .green .bar div {
     background: #0F6;
 }
 
-.progress-list .yellow .fill {
+.progress-list .yellow .bar div {
     background: #FD0;
 }
 
@@ -300,6 +320,7 @@ code {
     margin: 0;
     font-size: large;
 }
+
 
 /* Footer */
 
