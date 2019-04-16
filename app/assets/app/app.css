@@ -1,7 +1,3 @@
-/* Import */
-
-@import url("//fonts.googleapis.com/css?family=Ubuntu+Condensed|Ubuntu+Mono");
-
 /* Global */
 
 ::-webkit-scrollbar-track,
@@ -135,12 +131,13 @@ code {
     bottom: 100px;
 }
 
-@media(min-width:768px) {
+@media (min-width: 768px) {
     #editor {
         font-size: 28px;
         line-height: 50px;
         padding: 80px;
     }
+
     #editor .code b {
         width: 12px;
         height: 22px;
@@ -217,6 +214,10 @@ code {
     background: #0F6;
 }
 
+.progress-list .blue .bar div {
+    background: #3498db;
+}
+
 .progress-list .yellow .bar div {
     background: #FD0;
 }
@@ -244,7 +245,7 @@ code {
     padding-left: 5px;
 }
 
-.connect-item>* {
+.connect-item > * {
     transition: all 0.2s;
 }
 
