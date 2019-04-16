@@ -229,6 +229,10 @@ code {
     color: #666;
 }
 
+.connect-item:first-of-type .caption {
+    margin-bottom: 0;
+}
+
 .connect-item:hover,
 .connect-item:focus {
     text-decoration: none;
