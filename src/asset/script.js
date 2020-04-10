@@ -1,14 +1,14 @@
 /**
  * Toggle for editor
  */
-setInterval(function () {
+setInterval(() => {
   $('#editor b').toggle();
 }, 500);
 
 /**
  * Resize the editor to full screen or minimal based on scroll
  */
-$(document).on('ready scroll', function () {
+$(document).on('ready scroll', () => {
   if (window.scrollY > 10) {
     $('#editor').removeClass('full');
   } else {
@@ -19,7 +19,7 @@ $(document).on('ready scroll', function () {
 /**
  * Update current year in footer
  */
-$(document).ready(function () {
+$(document).ready(() => {
   console.info('Nothing here except pure awesomeness...');
   $('#year').text(new Date().getFullYear());
 });
@@ -27,6 +27,6 @@ $(document).ready(function () {
 /**
  * Scroll on arrow click
  */
-$('.arrow').on('click', function () {
+$('.arrow').on('click', () => {
   $('html, body').animate({scrollTop: '50px'}, 250);
 });
